@@ -1,0 +1,23 @@
+# Whether clay should be able to be crafted into any item
+enable-clay-crafting: true
+
+# Whether clay should be able to be smelted into any item, separated into each smelter block
+enable-clay-smelting:
+  furnace: true
+  smoker: true
+  blast-furnace: true
+  campfire: true
+
+# Whether clay should be able to be turned into any item in a stonecutter
+enable-clay-stonecutter: true
+
+# Whether clay should be able to be turned into any item in a smithing table
+enable-clay-smithing: true
+
+# Items that clay should not be able to be turned into (materials)
+blacklist:
+  - clay_ball # Prevent crafting clay with a custom clay recipe
+  - clay # Prevent crafting clay blocks with a custom clay recipe
+
+# Whether to use the blacklist as a whitelist instead
+use-blacklist-as-whitelist: false

@@ -1,0 +1,19 @@
+name: BalancedClay
+version: '${version}'
+main: dev.melncat.balancedclay.BalancedClay
+api-version: 1.16
+authors: [ MelnCat ]
+description: Makes clay balanced. (adds recipes to turn clay into any item)
+commands:
+  balancedclay:
+    description: Shows information about the plugin.
+    usage: /<command>
+    aliases: blc
+    permission: balancedclay.command.balancedclay
+
+permissions:
+  balancedclay.command.balancedclay:
+    description: Allows usage of the /balancedclay command.
+    default: true
+  balancedclay.command.balancedclay.reload:
+    description: Allows using the /balancedclay command to reload the config.
